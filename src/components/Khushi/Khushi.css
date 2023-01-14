@@ -152,13 +152,24 @@
   flex-direction: column;
   align-items: center;
 }
+.khushi {
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 16px;
+
+  color: #ca1241;
+
+}
 .ordercard-text {
   background: #eac7c7;
   border-radius: 10px;
   margin: 0;
   padding: 0rem 8px;
   margin-left: 3px;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
 }
 .ordercard-text p {
   font-family: "Inter";

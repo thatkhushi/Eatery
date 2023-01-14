@@ -64,6 +64,7 @@ const Khushi = () => {
               <p>Qty: {count} </p>
               <p onClick={increase}>+</p>
             </div>
+                <p>Price per Unit  ₹30</p>
             <div className="ordercard-text">
                 <p>Add to Cart</p>
             </div>

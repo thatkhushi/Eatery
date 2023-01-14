@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import cardimg from '../../assets/cardimg.png'
+import dish from '../../assets/dish.png'
 import star from '../../assets/star.png'
 import './Dish.css'
 const Dish = () => {
@@ -8,12 +8,13 @@ const Dish = () => {
     return (
     <div className="home__card">
     <Link to='/rate' className={available? "home__card-content" :"home__card-content_blur" }>
-      <img src={cardimg} alt="card" className="home__card-image" />
+      <img src={dish} alt="card" className="home__card-image" />
       <div className="home__card-text">
-        <p>Govind Bhawan</p>
+        <p>Patties</p>
         <div className="home__card-rating">
-          <p style={{margin:"2px"}}>3.4</p>
-          <img src={star} alt="star"/>
+          <p style={{margin:"2px"}}>₹30</p>
+          {/* <p style={{margin:"2px"}}>3.0</p>
+          <img src={star} alt="star"/> */}
         </div>
       </div>
     </Link>
