@@ -1,0 +1,261 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8eee6;
+  }
+  .auth__page {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100vw;
+    height: 100vh;
+  
+  }
+  .auth__page-logo-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+  .auth__content {
+    width: 100%;
+    height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  .auth__page-image {
+    width: 50vw;
+    height: 70vh;
+  }
+  .auth__page-logo {
+    width: 20vw;
+    height: auto;
+  }
+  .signup__login__content {
+    background: #faf4ee;
+    box-shadow: 0px 4px 15px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 60px 60px 60px 60px;
+    /* height: 100vh; */
+    width: 40vw;
+    padding: 0.8rem 1rem;
+  }
+  .logo__image {
+    width: auto;
+    height: 12vw;
+    margin: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+    
+  }
+  .logo__image-border {
+    width: auto;
+    height: 12vw;
+    margin: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+  
+    border:10px solid #B0464A;
+    border-radius: 50%;
+  }
+  .signup__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .text__1 {
+    margin: 0;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: #ca1241;
+   
+  }
+  .signup__content-logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .signup__content-logo-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ca1241;
+  }
+  .text__2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 70px;
+  
+    color: #000000;
+  }
+  .signup__content-logo-circle__container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .signup__content-logo-circle {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #000000;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    cursor: pointer;
+  }
+  .signup__content-logo-circle-blank{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 3px solid black;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    cursor: pointer;
+    background-color: white;
+  }
+  .signup__content-details input {
+    background: #faf4ee;
+    border: 2px solid #000000;
+    border-radius: 11px;
+    /* min-width: 200px; */
+    width: 24vw;
+    height: 5vh;
+    margin-top: 0.45rem;
+    margin-bottom: 0.45rem;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+    color: #9b9b9b;
+    padding-left: 1rem;
+  }
+  .signup__content-details {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .button {
+    background: #eac7c7;
+    border-radius: 11px;
+    /* border: 2px solid #000000; */
+    width: 24vw;
+    height: 8vh;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    color: #ca1241;
+    font-size: 17px;
+    margin-top: 1rem;
+    cursor: pointer;
+    border: 0;
+   
+  }
+  .signup__buttonto-login {
+    display: flex;
+  }
+  .signup__buttonto-login> p:nth-of-type(1) {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #9b9b9b;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 0;
+  }
+  .signup__button-login {
+    text-decoration: none;
+    color: #ca1241;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 0;
+  }
+  .auth__page-logo-inner{
+    display: block;
+    height: 3.8vw;
+    width: auto;
+    position: static;
+    margin-right: auto;
+  }
+  @media screen and (max-width:1000px) {
+    .signup__login__content {
+      box-shadow: 0;
+      border-radius:0;
+    }
+    .auth__page-image{
+      display: none;
+    }
+    .signup__login__content{
+      width:100vw;
+      height: 100vh;
+    }
+    .signup__content-details input{
+      width: 62vw;
+      height: 5vh;
+    }
+    .button{
+      width:62vw;
+    }
+    .logo__image{
+      height: 20vh;
+    }
+  
+    .auth__page-logo-inner{
+      height: 56px;
+      width: auto;
+      
+    }
+    .text__1{
+      font-size: 30px;
+    }
+    
+  }
+  @media screen and (max-width:560px){
+    .signup__content-details input{
+      width:60vw ;
+    }
+    .button{
+      width: 70vw;
+    }
+    .text__1{
+      font-size: 28px;
+    }
+    .logo__image{
+      height: 18vh;
+    }
+    
+  }
+  @media screen and (max-width:300px) {
+    .signup__content-details input{
+      width: 75vw;
+    }
+    .button{
+      width: 75vw;
+    }
+    .text__1{
+      font-size: 22px;
+    }
+    .signup__buttonto-login p{
+      font-size: 18px;
+    }
+    
+  }

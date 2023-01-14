@@ -1,0 +1,93 @@
+.ordercard__container{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .ordercard__sideimage-image {
+    height: 45px;
+    width: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 5px;
+    margin-top: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ordercard__quantity{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  .ordercard__quantity > p:nth-of-type(1) {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    /* line-height: 24px; */
+  
+    color: #686868;
+    margin: 2px 0 2px 0;
+  }
+  .ordercard__quantity-changer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2px 0 2px 0;
+    
+  }
+  
+  .ordercard__quantity-changer p {
+    font-family: "Inter";
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 24px;
+    color: #686868;
+    background: #fcf5ee;
+    border: 0.5px solid #000000;
+    border-radius: 3px 3px 3px 0px;
+    /* height: 13px; */
+    width: 55px;
+    /* padding: 3px 0 3px 0; */
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  .ordercard__quantity-changer > p:nth-of-type(1){
+    font-size: 14px;
+    cursor: pointer;
+    width: 40px;
+    border: 0;
+  
+  }
+  .ordercard__quantity-changer > p:nth-of-type(3){
+    font-size: 14px;
+    cursor: pointer;
+    width: 40px;
+    border: 0;
+    
+  }
+  .ordercard__amount{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 5px;
+    margin-top: 1rem;
+  }
+  .ordercard__amount p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    color: #686868;
+  }
+  
+  .ordercard-details {
+    display: flex;
+    align-items: self-end;
+  }
+  

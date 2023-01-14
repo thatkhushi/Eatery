@@ -1,0 +1,231 @@
+.menu__card-container {
+  display: flex;
+  background: #ffffff;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 2rem;
+  /* width: 100%; */
+  height: 100%;
+  flex-direction: column;
+}
+.menu__card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1.5rem;
+  flex-wrap: wrap;
+}
+.menu__card {
+  display: flex;
+  flex: 3;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.menu__card-image {
+  display: flex;
+  flex: 3;
+}
+.menu__card-details {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.menu__card-details > p:nth-of-type(1) {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 43px;
+  margin: 0;
+  /* line-height: 121px; */
+
+  color: #000000;
+}
+.menu__card-data {
+  display: flex;
+  justify-content: space-between;
+}
+.menu__card-rating-1 {
+  display: flex;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  /* line-height: 48px; */
+
+  color: #000000;
+}
+.menu__card-rating-2 {
+  display: flex;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  /* line-height: 48px; */
+
+  color: #000000;
+}
+.menu__card-contact-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+.menu__card-contact-container > p:nth-of-type(1) {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+
+  color: #000000;
+}
+.menu__card-contact-details {
+  display: flex;
+}
+.menu__card-contact-phone {
+  display: flex;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  /* line-height: 47px; */
+
+  color: #000000;
+}
+.menu__card-contact-email {
+  display: flex;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  /* line-height: 47px; */
+
+  color: #000000;
+  margin-left: 2rem;
+}
+.ordercard__quantity-changer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2px 0 2px 0;
+}
+
+.ordercard__quantity-changer p {
+  font-family: "Inter";
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 24px;
+  color: #686868;
+  background: #fcf5ee;
+  border: 0.5px solid #000000;
+  border-radius: 3px 3px 3px 0px;
+  /* height: 13px; */
+  width: 55px;
+  /* padding: 3px 0 3px 0; */
+  margin-left: 2px;
+  margin-right: 2px;
+  text-align: center;
+}
+.ordercard__quantity-changer > p:nth-of-type(1) {
+  font-size: 14px;
+  cursor: pointer;
+  width: 40px;
+}
+.ordercard__quantity-changer > p:nth-of-type(3) {
+  font-size: 14px;
+  cursor: pointer;
+  width: 40px;
+}
+.khushi {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.ordercard-text {
+  background: #eac7c7;
+  border-radius: 10px;
+  margin: 0;
+  padding: 0rem 8px;
+  margin-left: 3px;
+  margin-top: 1rem;
+}
+.ordercard-text p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 16px;
+
+  color: #ca1241;
+}
+.t{
+    font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+/* line-height: 47px; */
+
+color: #000000;
+}
+.menu__card-container-downtext{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #F4E7DC;
+/* opacity: 0.3; */
+border-radius: 40px;
+background: transparent;
+margin-bottom: 3rem;
+}
+.menu__card-container-downimage{
+    display: flex;
+}
+.menu__card-container-downimage img{
+    height: 40px;
+    width: auto;
+    cursor: pointer;
+    margin-left: 0 2px;
+}
+.menu__card-container-downtext1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem 4rem;
+}
+.menu__card-container-downtext1 p{
+    font-family: "Inter";
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+
+color: #000000;
+}
+.menu__card-container-down2image{
+    display: flex;
+    
+}
+.menu__card-container-down2image img{
+    height: 150px;
+    width: auto;
+    margin-right: 3rem;
+    display: flex;
+    flex: 2;
+}
+/* .darkbg{
+    background-color: red;
+}
+.lightbg{
+    background-color: white;
+} */

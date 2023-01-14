@@ -1,0 +1,25 @@
+.rate{
+    display: flex;
+    flex-direction: column;
+}
+.rate__img{
+    position: absolute;
+    height: 50vw;
+    width: auto;
+    /* left: 50%; */
+    bottom: 0;
+    opacity: 0.18;
+    left: 20%;
+
+}
+.rate > p:nth-of-type(1){
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 33px;
+    margin: 0;
+    /* line-height: 121px; */
+    color: #000000;
+    margin: 1rem 2rem 0 2rem;
+
+}

@@ -1,0 +1,100 @@
+.navbar {
+    width: 100vw;
+    min-height: 70px;
+    box-shadow: 0px 4px 35px 15px rgba(0, 0, 0, 0.08);
+    
+  }
+  .nav__content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: hidden;
+  }
+  .nav__content-logo_wrapper{
+      text-decoration: none;
+  }
+  .nav__content-logo {
+    width: 125px;
+    height: auto;
+  }
+  .nav__container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 3rem;
+    /* flex: 10; */
+  }
+  .nav__search-box {
+    margin: 1rem;
+  }
+  .nav__search-icon {
+    height: 36px;
+    width: auto;
+    position: absolute;
+    margin: 4px;
+    padding-left: 26px;
+    margin-top: 6px;
+  }
+  .nav__search-box-input {
+    padding: 0 1rem 0 5rem;
+    width: 45vw;
+    background: #ffffff;
+    box-shadow: 0px 4px 40px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    font-family: "Inter-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 45px;
+  
+    color: #9b9b9b;
+    border: 0;
+  }
+  .nav__cart {
+    display: flex;
+    align-items: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    margin: 0 1rem 0 1rem;
+    color: #9b9b9b;
+    text-decoration: none;
+  }
+  .nav__cartimage {
+    width: 39px;
+    height: auto;
+    cursor: pointer;
+    margin: 0.5rem;
+    font-weight: 700;
+  }
+  .nav__profile {
+    border-radius: 50%;
+    background-color: #9b9b9b;
+    width: 53px;
+    height: 50px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: black;
+    font-size: 22px;
+    font-family: "Inter";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .nav__login-link {
+    text-decoration: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 59px;
+    margin-left: 1rem;
+    color: #9b9b9b;
+    cursor: pointer;
+  }
+  
